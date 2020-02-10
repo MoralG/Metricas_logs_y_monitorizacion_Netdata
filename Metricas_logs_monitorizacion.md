@@ -5,7 +5,7 @@ Netdata es una herramienta para visualizar y monitorear métricas en tiempo real
 Consiste en un demonio que cuando se ejecuta se encarga de obtener información en tiempo real y presentarla en la web. La recoleción de información utiliza plugins internos y/o externos.
 
 
-### Instalación
+## Instalación Netdata
 
 Instalamos las dependencias de **netdata**.
 ~~~
@@ -161,6 +161,8 @@ netdata   IN   CNAME   serranito
 
 Comprobamos que funciona la página.
 ![netdata](image/Netdata.png)
+
+## Configuración de los Clientes (Croqueta, Tortilla, Salmorejo)
 
 Ahora vamos a recoger los datos, para la monitorización y las métricas, de los clientes. Para realizar esto, tenemos que configurar a los clientes como esclavos, que se realiza con un fichero de configuración.
 
