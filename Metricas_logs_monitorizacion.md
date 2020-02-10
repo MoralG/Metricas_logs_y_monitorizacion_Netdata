@@ -246,7 +246,7 @@ tail -f /var/log/netdata/error.log
   2020-02-07 21:47:42: netdata INFO  : WEB_SERVER[static1] : POLLFD: LISTENER: client slot 5 (fd 82) from localhost port 43156 is idle for more than 60 seconds - closing it. 
 ~~~
 
-Para que el maestro escuche a los clientes, estos los vamos a configurar como esclavos. Para esto vamos a instalar netdata como hicimos en el servidor. [IR ARRIBA]()
+Para que el maestro escuche a los clientes, estos los vamos a configurar como esclavos. Para esto vamos a instalar netdata como hicimos en el servidor. [IR ARRIBA](https://github.com/MoralG/Metricas_logs_y_monitorizacion_Netdata/blob/master/Metricas_logs_monitorizacion.md#instalaci%C3%B3n-netdata)
 
 Creamos el fichero `/etc/netdata/stream.conf` y añadimos la configuración del esclavo en las máquinas Croqueta, Salmorejo y Tortilla.
 ~~~ 
