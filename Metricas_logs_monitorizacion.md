@@ -129,7 +129,7 @@ Fichero `netdata.conf`.
     ProxyRequests Off
     ProxyPreserveHost On
 
-    ServerName net
+    ServerName netdata.amorales.gonzalonazareno.org
 
     <Proxy *>
         Require all granted
